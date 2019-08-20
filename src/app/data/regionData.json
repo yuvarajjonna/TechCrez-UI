@@ -1,0 +1,998 @@
+[
+    {
+      "regionName": "Afghanistan",
+      "regionCode": "AF"
+    },
+    {
+      "regionName": "Åland Islands",
+      "regionCode": "AX"
+    },
+    {
+      "regionName": "Albania",
+      "regionCode": "AL"
+    },
+    {
+      "regionName": "Algeria",
+      "regionCode": "DZ"
+    },
+    {
+      "regionName": "American Samoa",
+      "regionCode": "AS"
+    },
+    {
+      "regionName": "Andorra",
+      "regionCode": "AD"
+    },
+    {
+      "regionName": "Angola",
+      "regionCode": "AO"
+    },
+    {
+      "regionName": "Anguilla",
+      "regionCode": "AI"
+    },
+    {
+      "regionName": "Antarctica",
+      "regionCode": "AQ"
+    },
+    {
+      "regionName": "Antigua and Barbuda",
+      "regionCode": "AG"
+    },
+    {
+      "regionName": "Argentina",
+      "regionCode": "AR"
+    },
+    {
+      "regionName": "Armenia",
+      "regionCode": "AM"
+    },
+    {
+      "regionName": "Aruba",
+      "regionCode": "AW"
+    },
+    {
+      "regionName": "Australia",
+      "regionCode": "AU"
+    },
+    {
+      "regionName": "Austria",
+      "regionCode": "AT"
+    },
+    {
+      "regionName": "Azerbaijan",
+      "regionCode": "AZ"
+    },
+    {
+      "regionName": "Bahamas",
+      "regionCode": "BS"
+    },
+    {
+      "regionName": "Bahrain",
+      "regionCode": "BH"
+    },
+    {
+      "regionName": "Bangladesh",
+      "regionCode": "BD"
+    },
+    {
+      "regionName": "Barbados",
+      "regionCode": "BB"
+    },
+    {
+      "regionName": "Belarus",
+      "regionCode": "BY"
+    },
+    {
+      "regionName": "Belgium",
+      "regionCode": "BE"
+    },
+    {
+      "regionName": "Belize",
+      "regionCode": "BZ"
+    },
+    {
+      "regionName": "Benin",
+      "regionCode": "BJ"
+    },
+    {
+      "regionName": "Bermuda",
+      "regionCode": "BM"
+    },
+    {
+      "regionName": "Bhutan",
+      "regionCode": "BT"
+    },
+    {
+      "regionName": "Bolivia (Plurinational State of)",
+      "regionCode": "BO"
+    },
+    {
+      "regionName": "Bonaire, Sint Eustatius and Saba",
+      "regionCode": "BQ"
+    },
+    {
+      "regionName": "Bosnia and Herzegovina",
+      "regionCode": "BA"
+    },
+    {
+      "regionName": "Botswana",
+      "regionCode": "BW"
+    },
+    {
+      "regionName": "Bouvet Island",
+      "regionCode": "BV"
+    },
+    {
+      "regionName": "Brazil",
+      "regionCode": "BR"
+    },
+    {
+      "regionName": "British Indian Ocean Territory",
+      "regionCode": "IO"
+    },
+    {
+      "regionName": "Brunei Darussalam",
+      "regionCode": "BN"
+    },
+    {
+      "regionName": "Bulgaria",
+      "regionCode": "BG"
+    },
+    {
+      "regionName": "Burkina Faso",
+      "regionCode": "BF"
+    },
+    {
+      "regionName": "Burundi",
+      "regionCode": "BI"
+    },
+    {
+      "regionName": "Cabo Verde",
+      "regionCode": "CV"
+    },
+    {
+      "regionName": "Cambodia",
+      "regionCode": "KH"
+    },
+    {
+      "regionName": "Cameroon",
+      "regionCode": "CM"
+    },
+    {
+      "regionName": "Canada",
+      "regionCode": "CA"
+    },
+    {
+      "regionName": "Cayman Islands",
+      "regionCode": "KY"
+    },
+    {
+      "regionName": "Central African Republic",
+      "regionCode": "CF"
+    },
+    {
+      "regionName": "Chad",
+      "regionCode": "TD"
+    },
+    {
+      "regionName": "Chile",
+      "regionCode": "CL"
+    },
+    {
+      "regionName": "China",
+      "regionCode": "CN"
+    },
+    {
+      "regionName": "Christmas Island",
+      "regionCode": "CX"
+    },
+    {
+      "regionName": "Cocos (Keeling) Islands",
+      "regionCode": "CC"
+    },
+    {
+      "regionName": "Colombia",
+      "regionCode": "CO"
+    },
+    {
+      "regionName": "Comoros",
+      "regionCode": "KM"
+    },
+    {
+      "regionName": "Congo",
+      "regionCode": "CG"
+    },
+    {
+      "regionName": "Congo (Democratic Republic of the)",
+      "regionCode": "CD"
+    },
+    {
+      "regionName": "Cook Islands",
+      "regionCode": "CK"
+    },
+    {
+      "regionName": "Costa Rica",
+      "regionCode": "CR"
+    },
+    {
+      "regionName": "Côte d'Ivoire",
+      "regionCode": "CI"
+    },
+    {
+      "regionName": "Croatia",
+      "regionCode": "HR"
+    },
+    {
+      "regionName": "Cuba",
+      "regionCode": "CU"
+    },
+    {
+      "regionName": "Curaçao",
+      "regionCode": "CW"
+    },
+    {
+      "regionName": "Cyprus",
+      "regionCode": "CY"
+    },
+    {
+      "regionName": "Czechia",
+      "regionCode": "CZ"
+    },
+    {
+      "regionName": "Denmark",
+      "regionCode": "DK"
+    },
+    {
+      "regionName": "Djibouti",
+      "regionCode": "DJ"
+    },
+    {
+      "regionName": "Dominica",
+      "regionCode": "DM"
+    },
+    {
+      "regionName": "Dominican Republic",
+      "regionCode": "DO"
+    },
+    {
+      "regionName": "Ecuador",
+      "regionCode": "EC"
+    },
+    {
+      "regionName": "Egypt",
+      "regionCode": "EG"
+    },
+    {
+      "regionName": "El Salvador",
+      "regionCode": "SV"
+    },
+    {
+      "regionName": "Equatorial Guinea",
+      "regionCode": "GQ"
+    },
+    {
+      "regionName": "Eritrea",
+      "regionCode": "ER"
+    },
+    {
+      "regionName": "Estonia",
+      "regionCode": "EE"
+    },
+    {
+      "regionName": "Eswatini",
+      "regionCode": "SZ"
+    },
+    {
+      "regionName": "Ethiopia",
+      "regionCode": "ET"
+    },
+    {
+      "regionName": "Falkland Islands (Malvinas)",
+      "regionCode": "FK"
+    },
+    {
+      "regionName": "Faroe Islands",
+      "regionCode": "FO"
+    },
+    {
+      "regionName": "Fiji",
+      "regionCode": "FJ"
+    },
+    {
+      "regionName": "Finland",
+      "regionCode": "FI"
+    },
+    {
+      "regionName": "France",
+      "regionCode": "FR"
+    },
+    {
+      "regionName": "French Guiana",
+      "regionCode": "GF"
+    },
+    {
+      "regionName": "French Polynesia",
+      "regionCode": "PF"
+    },
+    {
+      "regionName": "French Southern Territories",
+      "regionCode": "TF"
+    },
+    {
+      "regionName": "Gabon",
+      "regionCode": "GA"
+    },
+    {
+      "regionName": "Gambia",
+      "regionCode": "GM"
+    },
+    {
+      "regionName": "Georgia",
+      "regionCode": "GE"
+    },
+    {
+      "regionName": "Germany",
+      "regionCode": "DE"
+    },
+    {
+      "regionName": "Ghana",
+      "regionCode": "GH"
+    },
+    {
+      "regionName": "Gibraltar",
+      "regionCode": "GI"
+    },
+    {
+      "regionName": "Greece",
+      "regionCode": "GR"
+    },
+    {
+      "regionName": "Greenland",
+      "regionCode": "GL"
+    },
+    {
+      "regionName": "Grenada",
+      "regionCode": "GD"
+    },
+    {
+      "regionName": "Guadeloupe",
+      "regionCode": "GP"
+    },
+    {
+      "regionName": "Guam",
+      "regionCode": "GU"
+    },
+    {
+      "regionName": "Guatemala",
+      "regionCode": "GT"
+    },
+    {
+      "regionName": "Guernsey",
+      "regionCode": "GG"
+    },
+    {
+      "regionName": "Guinea",
+      "regionCode": "GN"
+    },
+    {
+      "regionName": "Guinea-Bissau",
+      "regionCode": "GW"
+    },
+    {
+      "regionName": "Guyana",
+      "regionCode": "GY"
+    },
+    {
+      "regionName": "Haiti",
+      "regionCode": "HT"
+    },
+    {
+      "regionName": "Heard Island and McDonald Islands",
+      "regionCode": "HM"
+    },
+    {
+      "regionName": "Holy See",
+      "regionCode": "VA"
+    },
+    {
+      "regionName": "Honduras",
+      "regionCode": "HN"
+    },
+    {
+      "regionName": "Hong Kong",
+      "regionCode": "HK"
+    },
+    {
+      "regionName": "Hungary",
+      "regionCode": "HU"
+    },
+    {
+      "regionName": "Iceland",
+      "regionCode": "IS"
+    },
+    {
+      "regionName": "India",
+      "regionCode": "IN"
+    },
+    {
+      "regionName": "Indonesia",
+      "regionCode": "ID"
+    },
+    {
+      "regionName": "Iran (Islamic Republic of)",
+      "regionCode": "IR"
+    },
+    {
+      "regionName": "Iraq",
+      "regionCode": "IQ"
+    },
+    {
+      "regionName": "Ireland",
+      "regionCode": "IE"
+    },
+    {
+      "regionName": "Isle of Man",
+      "regionCode": "IM"
+    },
+    {
+      "regionName": "Israel",
+      "regionCode": "IL"
+    },
+    {
+      "regionName": "Italy",
+      "regionCode": "IT"
+    },
+    {
+      "regionName": "Jamaica",
+      "regionCode": "JM"
+    },
+    {
+      "regionName": "Japan",
+      "regionCode": "JP"
+    },
+    {
+      "regionName": "Jersey",
+      "regionCode": "JE"
+    },
+    {
+      "regionName": "Jordan",
+      "regionCode": "JO"
+    },
+    {
+      "regionName": "Kazakhstan",
+      "regionCode": "KZ"
+    },
+    {
+      "regionName": "Kenya",
+      "regionCode": "KE"
+    },
+    {
+      "regionName": "Kiribati",
+      "regionCode": "KI"
+    },
+    {
+      "regionName": "Korea (Democratic People's Republic of)",
+      "regionCode": "KP"
+    },
+    {
+      "regionName": "Korea (Republic of)",
+      "regionCode": "KR"
+    },
+    {
+      "regionName": "Kuwait",
+      "regionCode": "KW"
+    },
+    {
+      "regionName": "Kyrgyzstan",
+      "regionCode": "KG"
+    },
+    {
+      "regionName": "Lao People's Democratic Republic",
+      "regionCode": "LA"
+    },
+    {
+      "regionName": "Latvia",
+      "regionCode": "LV"
+    },
+    {
+      "regionName": "Lebanon",
+      "regionCode": "LB"
+    },
+    {
+      "regionName": "Lesotho",
+      "regionCode": "LS"
+    },
+    {
+      "regionName": "Liberia",
+      "regionCode": "LR"
+    },
+    {
+      "regionName": "Libya",
+      "regionCode": "LY"
+    },
+    {
+      "regionName": "Liechtenstein",
+      "regionCode": "LI"
+    },
+    {
+      "regionName": "Lithuania",
+      "regionCode": "LT"
+    },
+    {
+      "regionName": "Luxembourg",
+      "regionCode": "LU"
+    },
+    {
+      "regionName": "Macao",
+      "regionCode": "MO"
+    },
+    {
+      "regionName": "Macedonia (the former Yugoslav Republic of)",
+      "regionCode": "MK"
+    },
+    {
+      "regionName": "Madagascar",
+      "regionCode": "MG"
+    },
+    {
+      "regionName": "Malawi",
+      "regionCode": "MW"
+    },
+    {
+      "regionName": "Malaysia",
+      "regionCode": "MY"
+    },
+    {
+      "regionName": "Maldives",
+      "regionCode": "MV"
+    },
+    {
+      "regionName": "Mali",
+      "regionCode": "ML"
+    },
+    {
+      "regionName": "Malta",
+      "regionCode": "MT"
+    },
+    {
+      "regionName": "Marshall Islands",
+      "regionCode": "MH"
+    },
+    {
+      "regionName": "Martinique",
+      "regionCode": "MQ"
+    },
+    {
+      "regionName": "Mauritania",
+      "regionCode": "MR"
+    },
+    {
+      "regionName": "Mauritius",
+      "regionCode": "MU"
+    },
+    {
+      "regionName": "Mayotte",
+      "regionCode": "YT"
+    },
+    {
+      "regionName": "Mexico",
+      "regionCode": "MX"
+    },
+    {
+      "regionName": "Micronesia (Federated States of)",
+      "regionCode": "FM"
+    },
+    {
+      "regionName": "Moldova (Republic of)",
+      "regionCode": "MD"
+    },
+    {
+      "regionName": "Monaco",
+      "regionCode": "MC"
+    },
+    {
+      "regionName": "Mongolia",
+      "regionCode": "MN"
+    },
+    {
+      "regionName": "Montenegro",
+      "regionCode": "ME"
+    },
+    {
+      "regionName": "Montserrat",
+      "regionCode": "MS"
+    },
+    {
+      "regionName": "Morocco",
+      "regionCode": "MA"
+    },
+    {
+      "regionName": "Mozambique",
+      "regionCode": "MZ"
+    },
+    {
+      "regionName": "Myanmar",
+      "regionCode": "MM"
+    },
+    {
+      "regionName": "Namibia",
+      "regionCode": "NA"
+    },
+    {
+      "regionName": "Nauru",
+      "regionCode": "NR"
+    },
+    {
+      "regionName": "Nepal",
+      "regionCode": "NP"
+    },
+    {
+      "regionName": "Netherlands",
+      "regionCode": "NL"
+    },
+    {
+      "regionName": "New Caledonia",
+      "regionCode": "NC"
+    },
+    {
+      "regionName": "New Zealand",
+      "regionCode": "NZ"
+    },
+    {
+      "regionName": "Nicaragua",
+      "regionCode": "NI"
+    },
+    {
+      "regionName": "Niger",
+      "regionCode": "NE"
+    },
+    {
+      "regionName": "Nigeria",
+      "regionCode": "NG"
+    },
+    {
+      "regionName": "Niue",
+      "regionCode": "NU"
+    },
+    {
+      "regionName": "Norfolk Island",
+      "regionCode": "NF"
+    },
+    {
+      "regionName": "Northern Mariana Islands",
+      "regionCode": "MP"
+    },
+    {
+      "regionName": "Norway",
+      "regionCode": "NO"
+    },
+    {
+      "regionName": "Oman",
+      "regionCode": "OM"
+    },
+    {
+      "regionName": "Pakistan",
+      "regionCode": "PK"
+    },
+    {
+      "regionName": "Palau",
+      "regionCode": "PW"
+    },
+    {
+      "regionName": "Palestine, State of",
+      "regionCode": "PS"
+    },
+    {
+      "regionName": "Panama",
+      "regionCode": "PA"
+    },
+    {
+      "regionName": "Papua New Guinea",
+      "regionCode": "PG"
+    },
+    {
+      "regionName": "Paraguay",
+      "regionCode": "PY"
+    },
+    {
+      "regionName": "Peru",
+      "regionCode": "PE"
+    },
+    {
+      "regionName": "Philippines",
+      "regionCode": "PH"
+    },
+    {
+      "regionName": "Pitcairn",
+      "regionCode": "PN"
+    },
+    {
+      "regionName": "Poland",
+      "regionCode": "PL"
+    },
+    {
+      "regionName": "Portugal",
+      "regionCode": "PT"
+    },
+    {
+      "regionName": "Puerto Rico",
+      "regionCode": "PR"
+    },
+    {
+      "regionName": "Qatar",
+      "regionCode": "QA"
+    },
+    {
+      "regionName": "Réunion",
+      "regionCode": "RE"
+    },
+    {
+      "regionName": "Romania",
+      "regionCode": "RO"
+    },
+    {
+      "regionName": "Russian Federation",
+      "regionCode": "RU"
+    },
+    {
+      "regionName": "Rwanda",
+      "regionCode": "RW"
+    },
+    {
+      "regionName": "Saint Barthélemy",
+      "regionCode": "BL"
+    },
+    {
+      "regionName": "Saint Helena, Ascension and Tristan da Cunha",
+      "regionCode": "SH"
+    },
+    {
+      "regionName": "Saint Kitts and Nevis",
+      "regionCode": "KN"
+    },
+    {
+      "regionName": "Saint Lucia",
+      "regionCode": "LC"
+    },
+    {
+      "regionName": "Saint Martin (French part)",
+      "regionCode": "MF"
+    },
+    {
+      "regionName": "Saint Pierre and Miquelon",
+      "regionCode": "PM"
+    },
+    {
+      "regionName": "Saint Vincent and the Grenadines",
+      "regionCode": "VC"
+    },
+    {
+      "regionName": "Samoa",
+      "regionCode": "WS"
+    },
+    {
+      "regionName": "San Marino",
+      "regionCode": "SM"
+    },
+    {
+      "regionName": "Sao Tome and Principe",
+      "regionCode": "ST"
+    },
+    {
+      "regionName": "Saudi Arabia",
+      "regionCode": "SA"
+    },
+    {
+      "regionName": "Senegal",
+      "regionCode": "SN"
+    },
+    {
+      "regionName": "Serbia",
+      "regionCode": "RS"
+    },
+    {
+      "regionName": "Seychelles",
+      "regionCode": "SC"
+    },
+    {
+      "regionName": "Sierra Leone",
+      "regionCode": "SL"
+    },
+    {
+      "regionName": "Singapore",
+      "regionCode": "SG"
+    },
+    {
+      "regionName": "Sint Maarten (Dutch part)",
+      "regionCode": "SX"
+    },
+    {
+      "regionName": "Slovakia",
+      "regionCode": "SK"
+    },
+    {
+      "regionName": "Slovenia",
+      "regionCode": "SI"
+    },
+    {
+      "regionName": "Solomon Islands",
+      "regionCode": "SB"
+    },
+    {
+      "regionName": "Somalia",
+      "regionCode": "SO"
+    },
+    {
+      "regionName": "South Africa",
+      "regionCode": "ZA"
+    },
+    {
+      "regionName": "South Georgia and the South Sandwich Islands",
+      "regionCode": "GS"
+    },
+    {
+      "regionName": "South Sudan",
+      "regionCode": "SS"
+    },
+    {
+      "regionName": "Spain",
+      "regionCode": "ES"
+    },
+    {
+      "regionName": "Sri Lanka",
+      "regionCode": "LK"
+    },
+    {
+      "regionName": "Sudan",
+      "regionCode": "SD"
+    },
+    {
+      "regionName": "Suriname",
+      "regionCode": "SR"
+    },
+    {
+      "regionName": "Svalbard and Jan Mayen",
+      "regionCode": "SJ"
+    },
+    {
+      "regionName": "Sweden",
+      "regionCode": "SE"
+    },
+    {
+      "regionName": "Switzerland",
+      "regionCode": "CH"
+    },
+    {
+      "regionName": "Syrian Arab Republic",
+      "regionCode": "SY"
+    },
+    {
+      "regionName": "Taiwan, Province of China",
+      "regionCode": "TW"
+    },
+    {
+      "regionName": "Tajikistan",
+      "regionCode": "TJ"
+    },
+    {
+      "regionName": "Tanzania, United Republic of",
+      "regionCode": "TZ"
+    },
+    {
+      "regionName": "Thailand",
+      "regionCode": "TH"
+    },
+    {
+      "regionName": "Timor-Leste",
+      "regionCode": "TL"
+    },
+    {
+      "regionName": "Togo",
+      "regionCode": "TG"
+    },
+    {
+      "regionName": "Tokelau",
+      "regionCode": "TK"
+    },
+    {
+      "regionName": "Tonga",
+      "regionCode": "TO"
+    },
+    {
+      "regionName": "Trinidad and Tobago",
+      "regionCode": "TT"
+    },
+    {
+      "regionName": "Tunisia",
+      "regionCode": "TN"
+    },
+    {
+      "regionName": "Turkey",
+      "regionCode": "TR"
+    },
+    {
+      "regionName": "Turkmenistan",
+      "regionCode": "TM"
+    },
+    {
+      "regionName": "Turks and Caicos Islands",
+      "regionCode": "TC"
+    },
+    {
+      "regionName": "Tuvalu",
+      "regionCode": "TV"
+    },
+    {
+      "regionName": "Uganda",
+      "regionCode": "UG"
+    },
+    {
+      "regionName": "Ukraine",
+      "regionCode": "UA"
+    },
+    {
+      "regionName": "United Arab Emirates",
+      "regionCode": "AE"
+    },
+    {
+      "regionName": "United Kingdom of Great Britain and Northern Ireland",
+      "regionCode": "GB"
+    },
+    {
+      "regionName": "United States of America",
+      "regionCode": "US"
+    },
+    {
+      "regionName": "United States Minor Outlying Islands",
+      "regionCode": "UM"
+    },
+    {
+      "regionName": "Uruguay",
+      "regionCode": "UY"
+    },
+    {
+      "regionName": "Uzbekistan",
+      "regionCode": "UZ"
+    },
+    {
+      "regionName": "Vanuatu",
+      "regionCode": "VU"
+    },
+    {
+      "regionName": "Venezuela (Bolivarian Republic of)",
+      "regionCode": "VE"
+    },
+    {
+      "regionName": "Viet Nam",
+      "regionCode": "VN"
+    },
+    {
+      "regionName": "Virgin Islands (British)",
+      "regionCode": "VG"
+    },
+    {
+      "regionName": "Virgin Islands (U.S.)",
+      "regionCode": "VI"
+    },
+    {
+      "regionName": "Wallis and Futuna",
+      "regionCode": "WF"
+    },
+    {
+      "regionName": "Western Sahara",
+      "regionCode": "EH"
+    },
+    {
+      "regionName": "Yemen",
+      "regionCode": "YE"
+    },
+    {
+      "regionName": "Zambia",
+      "regionCode": "ZM"
+    },
+    {
+      "regionName": "Zimbabwe",
+      "regionCode": "ZW"
+    }
+  ]

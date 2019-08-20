@@ -1,0 +1,21 @@
+  <h1>
+    Published Articles!
+  </h1>
+<ol>
+  <li *ngFor="let list of this.listData; let idx = index" class="list">
+    <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button 
+      style="float: right;"
+      (click)="delete(idx)">
+        <mat-icon aria-label="Side nav toggle icon">delete</mat-icon>
+    </button>
+    <p style="font-weight: lighter;">Published by <b style="font-weight: 550;">{{list.name ? list.name : 'unknown user'}}</b></p>
+    <p *ngIf='!list.imageData'><i>{{list.desc}}</i></p>
+    <img *ngIf="list.imageData" [src]="list.imageData.src" style="height:100px;width:100px" />
+  </li>
+</ol>
+<h2 style="font-weight: lighter;text-align: center;" *ngIf='this.listData.length === 0'>
+  No published articles yet!
+</h2>
