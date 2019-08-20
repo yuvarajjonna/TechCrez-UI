@@ -1,4 +1,4 @@
-# TechCrez
+# TechCrez - UI
 
 This project was developed in Angular-8
 
