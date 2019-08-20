@@ -1,0 +1,17 @@
+<h1>
+  Select the region to see the trending videos.  
+</h1>
+<ngx-select-dropdown 
+  [config]="config" 
+  [options]="this.regionData" 
+  (change)="getData($event)" 
+  [(ngModel)]="dataModel" 
+  [multiple]="false" >
+</ngx-select-dropdown>
+
+<ol *ngIf="this.trendingVideos.items">
+  <h2>Top trending videos in {{this.selectedRegion.regionName}}</h2>
+  <li *ngFor="let list of this.trendingVideos.items; let idx = index" class="list">
+    <iframe width="560" height="315" [src]="list.id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </li>
+</ol>

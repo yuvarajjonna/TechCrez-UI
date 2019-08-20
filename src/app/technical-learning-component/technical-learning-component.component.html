@@ -1,0 +1,42 @@
+<div class="template">
+  <h1 *ngIf="this.isToggle">Welcome to Technical Learning !</h1>
+  <div *ngIf="this.isToggle">
+    <h3> Select the course </h3>
+    <mat-grid-list cols="5" rowHeight="2:1">
+      <mat-grid-tile (click)="coureSelected('C Programming')" style="background-color: powderblue;">C Programming</mat-grid-tile>
+      <mat-grid-tile (click)="coureSelected('JavaScript')" style="background-color: NavajoWhite;">JavaScript</mat-grid-tile>
+      <mat-grid-tile (click)="coureSelected('AngularJS')" style="background-color: Gainsboro;">AngularJS</mat-grid-tile>
+      <mat-grid-tile (click)="coureSelected('Angular')" style="background-color: Lavender;">Angular 2+</mat-grid-tile>
+      <mat-grid-tile (click)="coureSelected('Vue JS')" style="background-color: LightSteelBlue ;">VueJS</mat-grid-tile>
+      <mat-grid-tile (click)="coureSelected('React JS')" style="background-color: DarkSalmon;">ReactJS</mat-grid-tile>
+      <mat-grid-tile (click)="coureSelected('Jquery')" style="background-color: Gainsboro;">Jquery</mat-grid-tile>
+      <mat-grid-tile (click)="coureSelected('HTML')" style="background-color: NavajoWhite ;">HTML</mat-grid-tile>
+      <mat-grid-tile (click)="coureSelected('CSS')" style="background-color: powderblue;">CSS</mat-grid-tile>
+    </mat-grid-list>
+  </div>
+  <div *ngIf="!this.isToggle">
+    <h1>Selected course {{this.selectedCourse}}</h1>
+    <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        class="backButton"
+        (click)="this.isToggle = true">
+          <mat-icon aria-label="Side nav toggle icon">arrow_back</mat-icon>
+      </button>
+  </div>
+  <div *ngIf="!this.isToggle">
+    <div class="videoList">
+      <div>
+        <ul>
+          <li *ngFor="let video of videosList" (click)="onSelect(video)">
+            <a href="#">{{ video.name }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="videoStreaming">
+
+    </div>
+  </div>
+</div>

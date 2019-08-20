@@ -1,0 +1,18 @@
+.videoList {
+    height: 85vh;
+    width: 30%;
+    background-color: black;
+    float: left;
+}
+
+.videoStreaming {
+    height: 85vh;
+    float: right;
+    width: 70%;;
+    background-color: gray;
+}
+.backButton {
+    position: absolute;
+    top: 85px;
+    right: 1em;
+}

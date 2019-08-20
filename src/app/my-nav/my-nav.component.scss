@@ -1,0 +1,39 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.userMenu {
+  margin-left: auto;
+}
+
+.mat-toolbar.mat-primary, .mat-toolbar.mat-toolbar-single-row {
+  background: #3A6F9F !important;
+}
+
+.mat-drawer {
+  background: #E5E5E5;
+}
+.mat-drawer-container {
+  background-color: #FCFCFC;
+}
+.mat-list-base .mat-list-item {
+  font-size: 18px;
+  font-weight: 100;
+  color: #828282;
+}
+.sidenav[_ngcontent-c1] {
+  width: 300px;
+}
