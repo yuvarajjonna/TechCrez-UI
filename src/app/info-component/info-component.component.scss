@@ -1,0 +1,25 @@
+#example2 {
+    margin-top: 40px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    margin: 0px 15px 30px 15px;
+    width: 350px;
+    float: left;
+}
+
+textarea {
+    margin: 0px 30px 30px 30px;
+    min-width: 95%;
+    min-height: 30%;
+}
+
+.saveButton, .editButton {
+    float: right;
+    margin: 20px 20px 20px 5px;
+}
+
+.cancelButton {
+    float: right;
+    margin: 20px 0px;
+}

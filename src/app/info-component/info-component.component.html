@@ -1,0 +1,48 @@
+<button
+    type="button"
+    aria-label="Toggle sidenav"
+    mat-icon-button
+    class="saveButton"
+    *ngIf="!istoggle"
+    (click)="saveNotes(this.listData.list)">
+      <mat-icon aria-label="Side nav toggle icon">save</mat-icon>
+</button>
+<button
+    type="button"
+    aria-label="Toggle sidenav"
+    mat-icon-button
+    class="cancelButton"
+    *ngIf="!istoggle"
+    (click)="cancelNotes()">
+      <mat-icon aria-label="Side nav toggle icon">cancel</mat-icon>
+</button>
+<button
+    type="button"
+    aria-label="Toggle sidenav"
+    mat-icon-button
+    class="cancelButton"
+    *ngIf="istoggle"
+    (click)="this.istoggle = false;this.listData.list = ''">
+      <mat-icon aria-label="Side nav toggle icon">add_circle</mat-icon>
+</button>
+<h1>Notes can be used here!</h1>
+<textarea *ngIf="!istoggle" [(ngModel)]="this.listData.list" placeholder="notes"></textarea>
+
+
+<div *ngFor="let notes of this.notesData; let idx = index" [hidden]="!(istoggle && !(this.notesData.length === 0))" id="example2">
+  <div style="background-color: #FDDD9B;">    
+    <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="editNotes(idx)"
+      >
+        <mat-icon aria-label="Side nav toggle icon">edit</mat-icon>
+    </button> 
+    Notes {{idx}}
+  </div>
+  <span>{{notes.list}}</span>
+</div>
+<h2 style="font-weight: lighter;" *ngIf='this.notesData.length === 0 && istoggle'>
+  No notes yet
+</h2>
