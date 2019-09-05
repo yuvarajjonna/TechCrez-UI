@@ -14,10 +14,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MyNavComponent } from './my-nav/my-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
-import {MatStepperModule} from '@angular/material/stepper';
-import {MatSelectModule} from '@angular/material/select';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatGridListModule} from '@angular/material/grid-list';
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatSelectModule } from '@angular/material/select';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { TechnicalLearningComponentComponent } from './technical-learning-component/technical-learning-component.component';
 import { TopTrendingComponentComponent } from './top-trending-component/top-trending-component.component';
@@ -50,6 +51,7 @@ import { LogOutComponentComponent } from './log-out-component/log-out-component.
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    MatTooltipModule,
     MatSelectModule,
     MatMenuModule,
     MatGridListModule,
