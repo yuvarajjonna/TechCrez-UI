@@ -25,7 +25,7 @@
     (click)="this.istoggle = false;this.listData.list = ''">
       <mat-icon aria-label="Side nav toggle icon">add_circle</mat-icon>
 </button>
-<h1>Notes can be used here!</h1>
+<h1 style="text-align: center;">Tech-wings Notes</h1>
 <textarea *ngIf="!istoggle" [(ngModel)]="this.listData.list" placeholder="notes"></textarea>
 
 
@@ -38,7 +38,7 @@
       (click)="editNotes(idx)"
       >
         <mat-icon aria-label="Side nav toggle icon">edit</mat-icon>
-    </button> 
+    </button>
     Notes {{idx}}
   </div>
   <span>{{notes.list}}</span>

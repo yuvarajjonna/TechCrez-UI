@@ -4,7 +4,7 @@
       [mode]="'over'"
       [opened]=false>
     <mat-toolbar><img src="../../assets/pheonix_logo.jpg" style="border-radius: 50%;" alt="Smiley face" height="42" width="42"/>
-      <span style="margin-left: 50px;">Tech wings</span> 
+      <span class="whiteSmoke" style="margin-left: 50px;">Tech wings</span> 
     </mat-toolbar>
     <mat-nav-list>
       <a mat-list-item routerLink="/portfolio">portfolio</a>
@@ -18,14 +18,15 @@
   <mat-sidenav-content>
     <mat-toolbar>
       <button
+        class="whiteSmoke"
         type="button"
         aria-label="Toggle sidenav"
         mat-icon-button
         (click)="drawer.toggle()">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>demo-ui</span>
-      <span class="userMenu">
+      <span class="whiteSmoke">Tech wings</span>
+      <span class="userMenu whiteSmoke">
         <button class="mat-icon-button" mat-button routerLink="/Landing"><mat-icon>home</mat-icon></button>
         <button class="mat-icon-button" mat-button [matMenuTriggerFor]="menu"><mat-icon>account_circle</mat-icon></button>
         <mat-menu #menu="matMenu">
