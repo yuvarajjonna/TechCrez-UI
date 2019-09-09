@@ -30,12 +30,30 @@
 
 
 <div *ngFor="let notes of this.notesData; let idx = index" [hidden]="!(istoggle && !(this.notesData.length === 0))" id="example2">
-  <div style="background-color: #FDDD9B;">    
+  <div style="background-color: #FDDD9B;">
+    <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      disabled
+      >
+        <mat-icon aria-label="Side nav toggle icon">scatter_plot</mat-icon>
+    </button>
+    <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="deleteNotes(idx)"
+      style="float:right"
+      >
+        <mat-icon aria-label="Side nav toggle icon">delete</mat-icon>
+    </button>
     <button
       type="button"
       aria-label="Toggle sidenav"
       mat-icon-button
       (click)="editNotes(idx)"
+      style="float:right"
       >
         <mat-icon aria-label="Side nav toggle icon">edit</mat-icon>
     </button>

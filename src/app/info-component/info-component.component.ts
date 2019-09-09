@@ -10,7 +10,7 @@ export class InfoComponentComponent implements OnInit {
   notesData: any = [];
   listData:any = {
     list: '',
-    id: '' 
+    id: null 
   };
   istoggle: boolean = true;
 
@@ -24,11 +24,11 @@ export class InfoComponentComponent implements OnInit {
 
   saveNotes(notes) {
     this.listData.list = notes;
-    if(this.listData.id){
-      this.notesData[this.listData.id].list = notes; 
-      this.listData.id = ''; 
+    if(this.listData.id == null){
+      this.notesData.push(this.listData); 
     } else {
-      this.notesData.push(this.listData);
+      this.notesData[this.listData.id].list = notes; 
+      this.listData.id = null;
     }
     localStorage.setItem('notes', JSON.stringify(this.notesData));
     this.notesData = JSON.parse(localStorage.getItem('notes'));
@@ -45,6 +45,12 @@ export class InfoComponentComponent implements OnInit {
     this.listData.list = this.notesData[id].list;
     this.listData.id = id;
     this.istoggle = false;
+  }
+
+  deleteNotes(id) {
+    this.notesData = JSON.parse(localStorage.getItem('notes'));
+    this.notesData.splice(id, 1);
+    localStorage.setItem('notes', JSON.stringify(this.notesData));
   }
 
 }
