@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "demo-ui": {
+    "TechCrez-UI": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/demo-ui",
+            "outputPath": "dist/TechCrez-UI",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "demo-ui:build"
+            "browserTarget": "TechCrez-UI:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "demo-ui:build:production"
+              "browserTarget": "TechCrez-UI:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "demo-ui:build"
+            "browserTarget": "TechCrez-UI:build"
           }
         },
         "test": {
@@ -108,7 +108,7 @@
         }
       }
     },
-    "demo-ui-e2e": {
+    "TechCrez-UI-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -117,11 +117,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "demo-ui:serve"
+            "devServerTarget": "TechCrez-UI:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "demo-ui:serve:production"
+              "devServerTarget": "TechCrez-UI:serve:production"
             }
           }
         },
@@ -137,5 +137,5 @@
       }
     }
   },
-  "defaultProject": "demo-ui"
+  "defaultProject": "TechCrez-UI"
 }
