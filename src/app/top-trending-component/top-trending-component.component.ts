@@ -41,17 +41,15 @@ export class TopTrendingComponentComponent implements OnInit {
   getData(selectedRegion) {
     if(selectedRegion.value) {
       this.selectedRegion = selectedRegion.value;
-      let url = 'https://www.googleapis.com/youtube/v3/videos?part=contentDetails&chart=mostPopular&regionCode='+selectedRegion.value.regionCode+'&maxResults=15&key=AIzaSyCMhKb1dBcWSmHNiLRjm_nVlgo_gPgU-wA'
+      let url = 'https://www.googleapis.com/youtube/v3/videos?part=contentDetails&chart=mostPopular&regionCode='+selectedRegion.value.regionCode+'&maxResults=15&key=AIzaSyAhDepjAUTyR7M7hMA9LY_Cl20uXCwO-Mo'
       this.httpClient
         .get(url)
         .subscribe(
           data  => {
-            console.log("GET Request is successful ", data);
             this.trendingVideos = data;
             for(var i=0;i<this.trendingVideos.items.length; i++) {
               this.trendingVideos.items[i].id = this.sanitizer.bypassSecurityTrustResourceUrl(this.embedUrl+this.trendingVideos.items[i].id) 
             }
-            console.log("this.trendingVideos ", this.trendingVideos.items);
           }, error  => {
             console.log("Rrror", error);
           }
