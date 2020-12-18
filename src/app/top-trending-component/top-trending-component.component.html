@@ -1,11 +1,11 @@
-<h1>
-  Select the region to see the trending videos.  
+<h1 style="text-align: center;">
+  Select the region to see the trending videos.
 </h1>
-<ngx-select-dropdown 
-  [config]="config" 
-  [options]="this.regionData" 
-  (change)="getData($event)" 
-  [(ngModel)]="dataModel" 
+<ngx-select-dropdown
+  [config]="config"
+  [options]="this.regionData"
+  (change)="getData($event)"
+  [(ngModel)]="dataModel"
   [multiple]="false" >
 </ngx-select-dropdown>
 

@@ -4,14 +4,19 @@
     padding: 10px;
     box-shadow: 5px 10px #888888;
     margin: 0px 15px 30px 15px;
-    width: 350px;
+    width: 310px;
     float: left;
+}
+@media(max-width: 550px) {
+    #example2 {
+        width: 85vw;
+    }
 }
 
 textarea {
-    margin: 0px 30px 30px 30px;
-    min-width: 95%;
-    min-height: 30%;
+    margin: 3px 30px 10px 9px;
+    min-width: 85vw;
+    min-height: 45vh;
 }
 
 .saveButton, .editButton {

@@ -1,20 +1,22 @@
-<h1>
+<h1 style="text-align: center;">
   publish-component works!
 </h1>
-<h4>What do you want to publish(Image/Story):</h4>
-<div class="radio">  
-  <input type="radio" name="gender" value="Male" (click)="setradio('image')" ngModel> Image  
-  <input type="radio" name="gender" value="Female" (click)="setradio('story')" ngModel> Story
-</div>  
+<div class="container">
+  <h4>What do you want to publish(Image/Story):</h4>
+  <div class="radio">
+    <input type="radio" name="gender" value="Male" (click)="setradio('image')" ngModel> Image
+    <input type="radio" name="gender" value="Female" (click)="setradio('story')" ngModel> Story
+  </div>
 
-<div *ngIf="isSelected('image')" >  
-<input style="margin: 30px 30px 10px 30px;" [(ngModel)]="image.name" placeholder="name"/><br>
-<input style="margin: 30px 30px 10px 30px;" #imageInput type="file" accept="image/*" (change)="processFile(imageInput)"><br>
-<button style="margin: 30px 30px 10px 30px;" (click)="publishImage()">publish</button>
-</div>
+  <div *ngIf="isSelected('image')" >
+    <input style="margin: 30px 30px 10px 10px;" [(ngModel)]="image.name" placeholder="name"/><br>
+    <input style="margin: 20px 10px 10px 10px;" #imageInput type="file" accept="image/*" (change)="processFile(imageInput)"><br>
+    <button style="margin: 20px 30px 10px 10px;" (click)="publishImage()">publish</button>
+  </div>
 
-<div *ngIf="isSelected('story')">
-  <input style="margin: 30px 30px 10px 30px;" [(ngModel)]="data.name" placeholder="name"/><br>
-  <textarea [(ngModel)]="data.desc" placeholder="description"></textarea><br>
-  <button (click)="addContact(data.name,data.desc)">publish</button>
+  <div *ngIf="isSelected('story')">
+    <input style="margin: 30px 30px 10px 10px;" [(ngModel)]="data.name" placeholder="name"/><br>
+    <textarea [(ngModel)]="data.desc" placeholder="description"></textarea><br>
+    <button style="margin: 10px 30px 10px 10px;" class="btn btn-primary" (click)="addContact(data.name,data.desc)">publish</button>
+  </div>
 </div>
